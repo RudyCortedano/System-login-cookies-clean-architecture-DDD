@@ -1,0 +1,19 @@
+/* --------------------------------- */
+/* --------------------------------- */
+/* Estilos globales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* Query para dispositivos moviles */
+@media (max-width: 420px) {
+  /* Mobile pequeño */
+  .register-wrapper {
+    padding-inline: 1rem;
+  }
+}
+/* --------------------------------- */
+/* --------------------------------- */

@@ -1,0 +1,43 @@
+{
+  "name": "vue3-system-login-cookies",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest --config vitest.unit.config.ts",
+    "test:integration": "vitest --config vitest.integration.config.ts",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run test:integration"
+  },
+  "dependencies": {
+    "@types/three": "^0.183.1",
+    "@vee-validate/zod": "^4.15.1",
+    "dotenv": "^17.3.1",
+    "ldrs": "^1.1.9",
+    "three": "^0.183.1",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.8.1",
+    "axios": "^1.13.5",
+    "jsdom": "^28.1.0",
+    "msw": "^2.12.10",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18",
+    "vue-tsc": "^3.1.5"
+  }
+}

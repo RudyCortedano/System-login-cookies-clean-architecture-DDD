@@ -1,0 +1,21 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "types": ["vite/client"],
+
+    "paths": {
+      "@/*": ["./src/*"],
+      // "@tests/*": ["tests/*"]
+    },
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/modules/auth/application/LoginUser.ts", "src/modules/auth/application/RegisterUser.ts", "src/modules/auth/application/RequestPasswordReset.ts", "src/modules/auth/application/ResetPassword.ts", "src/modules/auth/application/VerifyChangePassword.ts", "src/modules/auth/application/VerifyEmail.ts", "tests/unit/auth/LoginUser.spec.ts", "tests/unit/auth/RegisterUser.spec.ts", "tests/unit/auth/RequestPasswordReset.spec.ts", "tests/unit/auth/ResetPassword.spec.ts", "tests/unit/auth/VerifyChangePassword.spec.ts", "tests/unit/auth/VerifyEmail.spec.ts", "tests/unit/user/GetUserLogged.spec.ts"]
+}
