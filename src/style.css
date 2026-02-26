@@ -11,7 +11,11 @@
 /* Query para dispositivos moviles */
 @media (max-width: 420px) {
   /* Mobile pequeño */
-  .register-wrapper {
+  .register_wrapper,
+  .login_wrapper,
+  .resetPassword_wrapper,
+  .newPassword_wrapper
+  {
     padding-inline: 1rem;
   }
 }
