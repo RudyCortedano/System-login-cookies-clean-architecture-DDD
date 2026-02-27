@@ -24,7 +24,7 @@ router.beforeEach(async (to, _from, next) => {
   try {
     const res = await fetch(`${import.meta.env.VITE_API_URL}/user/profile`, {
       
-      credentials: "include", // 🔑 cookies
+      credentials: "include", 
     });
 
     if (!res.ok) throw new Error("Unauthorized");

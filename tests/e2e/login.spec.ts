@@ -11,7 +11,7 @@ const TEST_PASSWORD = process.env.TEST_PASSWORD as string;
 
 if (!TEST_EMAIL || !TEST_PASSWORD) {
   throw new Error(
-    "❌ TEST_EMAIL o TEST_PASSWORD no están definidos en las variables de entorno"
+    " TEST_EMAIL o TEST_PASSWORD no están definidos en las variables de entorno"
   );
 }
 
